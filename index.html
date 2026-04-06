@@ -1108,42 +1108,76 @@ footer {
     <p class="sec-sub">Hər məhsulun qiyməti üçün WhatsApp ilə əlaqə saxlayın · 055 921 38 99</p>
   </div>
 
-  <!-- =====================================================
-  17 MƏHSUL KARTI – YENİLƏNMİŞ GÖRSEL + AÇIQLAMALAR
-  Öz index.html faylındakı bütün product card-ları
-  aşağıdakılarla əvəz et
-  ===================================================== -->
+ <!-- =====================================================
+  17 MƏHSUL KARTI – RESPONSIVE (MOBİL/PC DÜZGÜN GÖRÜNƏN)
+  Bu strukturu bütün məhsullarda istifadə et.
+===================================================== -->
 
 <!-- ANT-001: Divar Saatı -->
 <div class="product-card" data-category="saat">
-  <img src="images/divar-saati.webp" alt="Sovet dövrü pendüllü divar saatı antik – Ruslan Antikvar Bakı" loading="lazy">
-  <div class="badge">⏱ Saat</div>
-  <div class="seller">Ruslan · 055 921 38 99</div>
-  <button class="zoom-btn" onclick="openModal(this)">🔍</button>
-  <h3>Sovet Divar Saatı – Yellənən</h3>
-  <div class="sku">Məhsul kodu: ANT-001</div>
-  <p>SSRİ dövrü taxta gövdəli divar saatı. Pendül mexanizmi ilə işləyən bu saat Sovet saatsazlığının nadir nümunəsidir. Rim rəqəmli qara siferblat, qızıl rəngdə çərçivə, bəzəkli mis pendül diski ilə. Tam işlək vəziyyətdədir.</p>
-  <details>
-    <summary>🔎 Ekspert Analizi</summary>
-    <p>«Zaria» zavodu istehsalı, 1950–70-ci illər. Sovet divar saatları antikvar bazarında artan tələbatla üzləşir. Taxta gövdə, mis bəzəklər əla mühafizə vəziyyətindədir. Pendül mexanizmi orijinal saxlanılıb.</p>
-  </details>
-  <a class="btn-wa" href="https://wa.me/994559213899?text=Salam.%20bu%20m%C9%99hsulun%20qiym%C9%99tini%20soru%C5%9Fmaq%20ist%C9%99yirdim" target="_blank" rel="noopener">Qiymət Soruş</a>
+
+  <div class="img-wrap" onclick="openLb('images/divar-saati.webp', 'Sovet dövrü pendüllü divar saatı')">
+    <img src="images/divar-saati.webp" alt="Sovet dövrü pendüllü divar saatı antik – Ruslan Antikvar Bakı" loading="lazy">
+    <div class="img-protect"></div>
+    <div class="watermark">Ruslan Antikvar · 055 921 38 99</div>
+    <div class="cat-badge">⏱ Saat</div>
+    <div class="zoom-hint">🔍</div>
+  </div>
+
+  <div class="card-body">
+    <div class="product-title">Sovet Divar Saatı – Pendüllü</div>
+    <div class="product-code">Məhsul kodu: ANT-001</div>
+
+    <div class="product-desc">
+      SSRİ dövrü taxta gövdəli divar saatı. Pendül mexanizmi ilə işləyən bu saat Sovet saatsazlığının nadir nümunəsidir.
+    </div>
+
+    <div class="analysis-box">
+      <div class="analysis-label">Ekspert Analizi</div>
+      <div class="analysis-text">
+        «Zaria» zavodu istehsalı, 1950–70-ci illər. Sovet divar saatları antikvar bazarında artan tələbatla üzləşir.
+      </div>
+    </div>
+
+    <a class="wa-btn" href="https://wa.me/994559213899?text=Salam.%20ANT-001%20m%C9%99hsulunun%20qiym%C9%99tini%20soru%C5%9Fmaq%20ist%C9%99yirdim" target="_blank" rel="noopener">
+      Qiymət Soruş
+    </a>
+  </div>
+
 </div>
+
 
 <!-- ANT-002: Antik Güzgü -->
 <div class="product-card" data-category="diger">
-  <img src="images/cercive.webp" alt="Antik oyma çərçivəli taxta güzgü XIX əsr – Ruslan Antikvar" loading="lazy">
-  <div class="badge">🗝 Digər</div>
-  <div class="seller">Ruslan · 055 921 38 99</div>
-  <button class="zoom-btn" onclick="openModal(this)">🔍</button>
-  <h3>Antik Taxta Güzgü – Oyma Çərçivə</h3>
-  <div class="sku">Məhsul kodu: ANT-002</div>
-  <p>XIX əsr sonu – XX əsr əvvəlinə aid monumental taxta çərçivəli boy güzgüsü. Qoz ağacı üzərindəki naxışlar əl ilə oyulmuşdur. Çərçivənin üst hissəsindəki barokko üslublu süsləmələr xüsusi diqqəti cəlb edir. İntarsiya və qızıl naxışlarla bəzəkli.</p>
-  <details>
-    <summary>🔎 Ekspert Analizi</summary>
-    <p>Qərbi Avropa emalatxana işi. Taxta çərçivənin intarsiya texnikası ilə hazırlanmış bəzəkləri XVIII–XIX əsr sənətkarlığına xasdır. Belə güzgülər ev interyerinin taclıq əşyası sayılır. Antik bazarda çox nadir tapılır.</p>
-  </details>
-  <a class="btn-wa" href="https://wa.me/994559213899?text=Salam.%20bu%20m%C9%99hsulun%20qiym%C9%99tini%20soru%C5%9Fmaq%20ist%C9%99yirdim" target="_blank" rel="noopener">Qiymət Soruş</a>
+
+  <div class="img-wrap" onclick="openLb('images/cercive.webp', 'Antik oyma çərçivəli taxta güzgü')">
+    <img src="images/cercive.webp" alt="Antik oyma çərçivəli taxta güzgü XIX əsr – Ruslan Antikvar" loading="lazy">
+    <div class="img-protect"></div>
+    <div class="watermark">Ruslan Antikvar · 055 921 38 99</div>
+    <div class="cat-badge">🗝 Digər</div>
+    <div class="zoom-hint">🔍</div>
+  </div>
+
+  <div class="card-body">
+    <div class="product-title">Antik Taxta Güzgü – Oyma Çərçivə</div>
+    <div class="product-code">Məhsul kodu: ANT-002</div>
+
+    <div class="product-desc">
+      XIX əsr sonu – XX əsr əvvəlinə aid monumental taxta çərçivəli boy güzgüsü.
+    </div>
+
+    <div class="analysis-box">
+      <div class="analysis-label">Ekspert Analizi</div>
+      <div class="analysis-text">
+        Qərbi Avropa emalatxana işi. Taxta çərçivənin intarsiya texnikası ilə hazırlanmış bəzəkləri XVIII–XIX əsr sənətkarlığına xasdır.
+      </div>
+    </div>
+
+    <a class="wa-btn" href="https://wa.me/994559213899?text=Salam.%20ANT-002%20m%C9%99hsulunun%20qiym%C9%99tini%20soru%C5%9Fmaq%20ist%C9%99yirdim" target="_blank" rel="noopener">
+      Qiymət Soruş
+    </a>
+  </div>
+
 </div>
 
 <!-- ANT-003: Neft Lampası -->
