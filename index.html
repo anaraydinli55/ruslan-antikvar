@@ -1109,16 +1109,15 @@ footer {
     <p class="sec-sub">Hər məhsulun qiyməti üçün WhatsApp ilə əlaqə saxlayın · 055 921 38 99</p>
   </div>
 
- <!-- =====================================================
-  17 MƏHSUL KARTI – RESPONSIVE (MOBİL/PC DÜZGÜN GÖRÜNƏN)
-  Bu strukturu bütün məhsullarda istifadə et.
+<!-- =====================================================
+  17 MƏHSUL KARTI – RESPONSIVE (MOBİL/PC DÜZGÜN)
+  BUNU index.html-də bütün product card-larla əvəz et
 ===================================================== -->
 
 <!-- ANT-001: Divar Saatı -->
 <div class="product-card" data-category="saat">
-
-  <div class="img-wrap" onclick="openLb('images/divar-saati.webp', 'Sovet dövrü pendüllü divar saatı')">
-    <img src="images/divar-saati.webp" alt="Sovet dövrü pendüllü divar saatı antik – Ruslan Antikvar Bakı" loading="lazy">
+  <div class="img-wrap" onclick="openLb('images/divar-saiti.webp','Sovet Divar Saatı – Pendüllü')">
+    <img src="images/divar-saiti.webp" alt="Sovet dövrü pendüllü divar saatı antik – Ruslan Antikvar Bakı" loading="lazy">
     <div class="img-protect"></div>
     <div class="watermark">Ruslan Antikvar · 055 921 38 99</div>
     <div class="cat-badge">⏱ Saat</div>
@@ -1126,17 +1125,17 @@ footer {
   </div>
 
   <div class="card-body">
-    <div class="product-title">Sovet Divar Saatı – Pendüllü</div>
+    <div class="product-title">Sovet Divar Saatı – Yellənən</div>
     <div class="product-code">Məhsul kodu: ANT-001</div>
 
     <div class="product-desc">
-      SSRİ dövrü taxta gövdəli divar saatı. Pendül mexanizmi ilə işləyən bu saat Sovet saatsazlığının nadir nümunəsidir.
+      SSRİ dövrü taxta gövdəli divar saatı. Yellənmə mexanizmi ilə işləyən bu saat Sovet saatsazlığının nadir nümunəsidir. Rim rəqəmli qara siferblat, qızıl rəngdə çərçivə, bəzəkli mis pendül diski ilə. Tam işlək vəziyyətdədir.
     </div>
 
     <div class="analysis-box">
       <div class="analysis-label">Ekspert Analizi</div>
       <div class="analysis-text">
-        «Zaria» zavodu istehsalı, 1950–70-ci illər. Sovet divar saatları antikvar bazarında artan tələbatla üzləşir.
+        «Zaria» zavodu istehsalı, 1950–70-ci illər. Sovet divar saatları antikvar bazarında artan tələbatla üzləşir. Taxta gövdə, mis bəzəklər əla mühafizə vəziyyətindədir. Pendül mexanizmi orijinal saxlanılıb.
       </div>
     </div>
 
@@ -1144,14 +1143,12 @@ footer {
       Qiymət Soruş
     </a>
   </div>
-
 </div>
 
 
 <!-- ANT-002: Antik Güzgü -->
 <div class="product-card" data-category="diger">
-
-  <div class="img-wrap" onclick="openLb('images/cercive.webp', 'Antik oyma çərçivəli taxta güzgü')">
+  <div class="img-wrap" onclick="openLb('images/cercive.webp','Antik Taxta Güzgü – Oyma Çərçivə')">
     <img src="images/cercive.webp" alt="Antik oyma çərçivəli taxta güzgü XIX əsr – Ruslan Antikvar" loading="lazy">
     <div class="img-protect"></div>
     <div class="watermark">Ruslan Antikvar · 055 921 38 99</div>
@@ -1164,13 +1161,13 @@ footer {
     <div class="product-code">Məhsul kodu: ANT-002</div>
 
     <div class="product-desc">
-      XIX əsr sonu – XX əsr əvvəlinə aid monumental taxta çərçivəli boy güzgüsü.
+      XIX əsr sonu – XX əsr əvvəlinə aid monumental taxta çərçivəli boy güzgüsü. Qoz ağacı üzərindəki naxışlar əl ilə oyulmuşdur. Çərçivənin üst hissəsindəki barokko üslublu süsləmələr xüsusi diqqəti cəlb edir. İntarsiya və qızıl naxışlarla bəzəkli.
     </div>
 
     <div class="analysis-box">
       <div class="analysis-label">Ekspert Analizi</div>
       <div class="analysis-text">
-        Qərbi Avropa emalatxana işi. Taxta çərçivənin intarsiya texnikası ilə hazırlanmış bəzəkləri XVIII–XIX əsr sənətkarlığına xasdır.
+        Qərbi Avropa emalatxana işi. Taxta çərçivənin intarsiya texnikası ilə hazırlanmış bəzəkləri XVIII–XIX əsr sənətkarlığına xasdır. Belə güzgülər ev interyerinin taclıq əşyası sayılır. Antik bazarda çox nadir tapılır.
       </div>
     </div>
 
@@ -1178,168 +1175,326 @@ footer {
       Qiymət Soruş
     </a>
   </div>
-
 </div>
+
 
 <!-- ANT-003: Neft Lampası -->
 <div class="product-card" data-category="diger">
-  <img src="images/lampa1.webp" alt="Antik neft lampası tunc gövdəli XIX əsr – Ruslan Antikvar Bakı" loading="lazy">
-  <div class="badge">🗝 Digər</div>
-  <div class="seller">Ruslan · 055 921 38 99</div>
-  <button class="zoom-btn" onclick="openModal(this)">🔍</button>
-  <h3>Antik Neft Lampası – Tunc Gövdəli</h3>
-  <div class="sku">Məhsul kodu: ANT-003</div>
-  <p>XIX əsrə aid tunc gövdəli neft lampası. Döküm çuqundan hazırlanmış bəzəkli ayaqlıq, şəffaf silindr şüşə papaq, mis yağ qabı. Fitil tənzimləyici mexanizmi salamat qalıb. Dövrünə görə əla mühafizə vəziyyəti.</p>
-  <details>
-    <summary>🔎 Ekspert Analizi</summary>
-    <p>Victorian dövrü Avropa istehsalı. Bu tip tunc lampalar XIX əsrin sonu – XX əsrin əvvəlinin interyerinin ayrılmaz parçası idi. Bərpa edilmədən orijinal vəziyyətdə qalması kolleksiya dəyərini artırır. Antik dekor üçün mükəmməl əşya.</p>
-  </details>
-  <a class="btn-wa" href="https://wa.me/994559213899?text=Salam.%20bu%20m%C9%99hsulun%20qiym%C9%99tini%20soru%C5%9Fmaq%20ist%C9%99yirdim" target="_blank" rel="noopener">Qiymət Soruş</a>
+  <div class="img-wrap" onclick="openLb('images/lampa1.webp','Antik Neft Lampası – Tunc Gövdəli')">
+    <img src="images/lampa1.webp" alt="Antik neft lampası tunc gövdəli XIX əsr – Ruslan Antikvar Bakı" loading="lazy">
+    <div class="img-protect"></div>
+    <div class="watermark">Ruslan Antikvar · 055 921 38 99</div>
+    <div class="cat-badge">🗝 Digər</div>
+    <div class="zoom-hint">🔍</div>
+  </div>
+
+  <div class="card-body">
+    <div class="product-title">Antik Neft Lampası – Tunc Gövdəli</div>
+    <div class="product-code">Məhsul kodu: ANT-003</div>
+
+    <div class="product-desc">
+      XIX əsrə aid tunc gövdəli neft lampası. Döküm çuqundan hazırlanmış bəzəkli ayaqlıq, şəffaf silindr şüşə papaq, mis yağ qabı. Fitil tənzimləyici mexanizmi salamat qalıb. Dövrünə görə əla mühafizə vəziyyəti.
+    </div>
+
+    <div class="analysis-box">
+      <div class="analysis-label">Ekspert Analizi</div>
+      <div class="analysis-text">
+        Victorian dövrü Avropa istehsalı. Bu tip tunc lampalar XIX əsrin sonu – XX əsrin əvvəlinin interyerinin ayrılmaz parçası idi. Bərpa edilmədən orijinal vəziyyətdə qalması kolleksiya dəyərini artırır.
+      </div>
+    </div>
+
+    <a class="wa-btn" href="https://wa.me/994559213899?text=Salam.%20ANT-003%20m%C9%99hsulunun%20qiym%C9%99tini%20soru%C5%9Fmaq%20ist%C9%99yirdim" target="_blank" rel="noopener">
+      Qiymət Soruş
+    </a>
+  </div>
 </div>
+
 
 <!-- ANT-004: Aftafa (gümüşü) -->
 <div class="product-card" data-category="qab">
-  <img src="images/aftafa1.webp" alt="Antik gümüş aftafa qazıma naxışlı – Ruslan Antikvar Bakı" loading="lazy">
-  <div class="badge">🏺 Qab</div>
-  <div class="seller">Ruslan · 055 921 38 99</div>
-  <button class="zoom-btn" onclick="openModal(this)">🔍</button>
-  <h3>Antik Aftafa – Qazıma Naxışlı</h3>
-  <div class="sku">Məhsul kodu: ANT-004</div>
-  <p>Gümüşü rəngli metal aftafa – Şərq üslubunda incə qazıma naxışlarla bəzəkli qab. Oval gövdədə həndəsi ornamentlər, uzun quş dimdiyi formasında borucuq, sivri finial, bəzəkli qulp. Dayaq boşqabı ilə birlikdə tam dəst.</p>
-  <details>
-    <summary>🔎 Ekspert Analizi</summary>
-    <p>Orta Şərq ya da Qafqaz mənşəli, XIX–XX əsr. Bu tip aftafalar dini mərasimlərdə əl yuma qabı kimi istifadə olunurdu. Əl işi qazıma naxışları sənətkarlığın yüksək dərəcəsinə işarədir. Boşqabla tam dəst olması kolleksiya dəyərini xeyli artırır.</p>
-  </details>
-  <a class="btn-wa" href="https://wa.me/994559213899?text=Salam.%20bu%20m%C9%99hsulun%20qiym%C9%99tini%20soru%C5%9Fmaq%20ist%C9%99yirdim" target="_blank" rel="noopener">Qiymət Soruş</a>
+  <div class="img-wrap" onclick="openLb('images/aftafa1.webp','Antik Aftafa – Qazıma Naxışlı')">
+    <img src="images/aftafa1.webp" alt="Antik gümüş aftafa qazıma naxışlı – Ruslan Antikvar Bakı" loading="lazy">
+    <div class="img-protect"></div>
+    <div class="watermark">Ruslan Antikvar · 055 921 38 99</div>
+    <div class="cat-badge">🏺 Qab</div>
+    <div class="zoom-hint">🔍</div>
+  </div>
+
+  <div class="card-body">
+    <div class="product-title">Antik Aftafa – Qazıma Naxışlı</div>
+    <div class="product-code">Məhsul kodu: ANT-004</div>
+
+    <div class="product-desc">
+      Gümüşü rəngli metal aftafa – Şərq üslubunda incə qazıma naxışlarla bəzəkli qab. Oval gövdədə həndəsi ornamentlər, uzun quş dimdiyi formasında borucuq, sivri finial, bəzəkli qulp. Dayaq boşqabı ilə birlikdə tam dəst.
+    </div>
+
+    <div class="analysis-box">
+      <div class="analysis-label">Ekspert Analizi</div>
+      <div class="analysis-text">
+        Orta Şərq ya da Qafqaz mənşəli, XIX–XX əsr. Bu tip aftafalar dini mərasimlərdə əl yuma qabı kimi istifadə olunurdu. Əl işi qazıma naxışları sənətkarlığın yüksək dərəcəsinə işarədir.
+      </div>
+    </div>
+
+    <a class="wa-btn" href="https://wa.me/994559213899?text=Salam.%20ANT-004%20m%C9%99hsulunun%20qiym%C9%99tini%20soru%C5%9Fmaq%20ist%C9%99yirdim" target="_blank" rel="noopener">
+      Qiymət Soruş
+    </a>
+  </div>
 </div>
+
 
 <!-- ANT-005: Aftafa (sarı mis) -->
 <div class="product-card" data-category="qab">
-  <img src="images/aftafa2.webp" alt="Sarı mis aftafa latun parlaq – Ruslan Antikvar Bakı Azərbaycan" loading="lazy">
-  <div class="badge">🏺 Qab</div>
-  <div class="seller">Ruslan · 055 921 38 99</div>
-  <button class="zoom-btn" onclick="openModal(this)">🔍</button>
-  <h3>Sarı Mis Aftafa – Parlaq Latun</h3>
-  <div class="sku">Məhsul kodu: ANT-005</div>
-  <p>Sarı mis (latun) aftafa – oyma naxışlı dayaq üzərindədir. Klassik Şərq formasını saxlayan bu qab əla mühafizə vəziyyətindədir. Geniş boşqab ilə dəst halında. Parlaqlığı orijinal vəziyyətini göstərir.</p>
-  <details>
-    <summary>🔎 Ekspert Analizi</summary>
-    <p>Azərbaycan ya da Orta Şərq əl işi. Latun aftafalar Şərq evlərinin ənənəvi süfrə əşyalarından biri idi. Dövrünə görə gözəl saxlanılmış vəziyyəti kolleksiyaçılar üçün əhəmiyyətlidir. Boşqabla tam dəst – bazarda nadir tapılır.</p>
-  </details>
-  <a class="btn-wa" href="https://wa.me/994559213899?text=Salam.%20bu%20m%C9%99hsulun%20qiym%C9%99tini%20soru%C5%9Fmaq%20ist%C9%99yirdim" target="_blank" rel="noopener">Qiymət Soruş</a>
+  <div class="img-wrap" onclick="openLb('images/aftafa2.webp','Sarı Mis Aftafa – Parlaq Latun')">
+    <img src="images/aftafa2.webp" alt="Sarı mis aftafa latun parlaq – Ruslan Antikvar Bakı Azərbaycan" loading="lazy">
+    <div class="img-protect"></div>
+    <div class="watermark">Ruslan Antikvar · 055 921 38 99</div>
+    <div class="cat-badge">🏺 Qab</div>
+    <div class="zoom-hint">🔍</div>
+  </div>
+
+  <div class="card-body">
+    <div class="product-title">Sarı Mis Aftafa – Parlaq Latun</div>
+    <div class="product-code">Məhsul kodu: ANT-005</div>
+
+    <div class="product-desc">
+      Sarı mis (latun) aftafa – oyma naxışlı dayaq üzərindədir. Klassik Şərq formasını saxlayan bu qab əla mühafizə vəziyyətindədir. Geniş boşqab ilə dəst halında.
+    </div>
+
+    <div class="analysis-box">
+      <div class="analysis-label">Ekspert Analizi</div>
+      <div class="analysis-text">
+        Azərbaycan ya da Orta Şərq əl işi. Latun aftafalar Şərq evlərinin ənənəvi süfrə əşyalarından biri idi. Boşqabla tam dəst olması kolleksiya dəyərini xeyli artırır.
+      </div>
+    </div>
+
+    <a class="wa-btn" href="https://wa.me/994559213899?text=Salam.%20ANT-005%20m%C9%99hsulunun%20qiym%C9%99tini%20soru%C5%9Fmaq%20ist%C9%99yirdim" target="_blank" rel="noopener">
+      Qiymət Soruş
+    </a>
+  </div>
 </div>
+
 
 <!-- ANT-006: Samovar (yuvarlaq) -->
 <div class="product-card" data-category="qab">
-  <img src="images/samovar1.webp" alt="Tula samovarı yuvarlaq mis antik – Ruslan Antikvar Bakı" loading="lazy">
-  <div class="badge">🏺 Qab</div>
-  <div class="seller">Ruslan · 055 921 38 99</div>
-  <button class="zoom-btn" onclick="openModal(this)">🔍</button>
-  <h3>Tula Samovarı – Yuvarlaq Mis</h3>
-  <div class="sku">Məhsul kodu: ANT-006</div>
-  <p>Klassik yuvarlaq formlı sarı mis samovar. Taxta tutacaqlar, kran mexanizmi, şaquli borucuq. Dörd ayaqlı kvadrat ayaqlıq üzərindədir. Tam işlək vəziyyətdədir. Sovet dövrü istehsalı.</p>
-  <details>
-    <summary>🔎 Ekspert Analizi</summary>
-    <p>Rusiya istehsalı, Tula zavodu. XIX–XX əsr rus samovarları antikvar bazarında ən tələbatlı qablardandır. Yuvarlaq gövdəli klassik forma ən məşhur növdür. Taxta tutacaqların salamat olması nadir xüsusiyyətdir.</p>
-  </details>
-  <a class="btn-wa" href="https://wa.me/994559213899?text=Salam.%20bu%20m%C9%99hsulun%20qiym%C9%99tini%20soru%C5%9Fmaq%20ist%C9%99yirdim" target="_blank" rel="noopener">Qiymət Soruş</a>
+  <div class="img-wrap" onclick="openLb('images/samovar1.webp','Tula Samovarı – Yuvarlaq Mis')">
+    <img src="images/samovar1.webp" alt="Tula samovarı yuvarlaq mis antik – Ruslan Antikvar Bakı" loading="lazy">
+    <div class="img-protect"></div>
+    <div class="watermark">Ruslan Antikvar · 055 921 38 99</div>
+    <div class="cat-badge">🏺 Qab</div>
+    <div class="zoom-hint">🔍</div>
+  </div>
+
+  <div class="card-body">
+    <div class="product-title">Tula Samovarı – Yuvarlaq Mis</div>
+    <div class="product-code">Məhsul kodu: ANT-006</div>
+
+    <div class="product-desc">
+      Klassik yuvarlaq formlı sarı mis samovar. Taxta tutacaqlar, kran mexanizmi, şaquli borucuq. Dörd ayaqlı kvadrat ayaqlıq üzərindədir. Tam işlək vəziyyətdədir.
+    </div>
+
+    <div class="analysis-box">
+      <div class="analysis-label">Ekspert Analizi</div>
+      <div class="analysis-text">
+        Rusiya istehsalı, Tula zavodu. XIX–XX əsr rus samovarları antikvar bazarında ən tələbatlı qablardandır. Taxta tutacaqların salamat olması nadir xüsusiyyətdir.
+      </div>
+    </div>
+
+    <a class="wa-btn" href="https://wa.me/994559213899?text=Salam.%20ANT-006%20m%C9%99hsulunun%20qiym%C9%99tini%20soru%C5%9Fmaq%20ist%C9%99yirdim" target="_blank" rel="noopener">
+      Qiymət Soruş
+    </a>
+  </div>
 </div>
+
 
 <!-- ANT-007: Samovar (böyük, kanal naxışlı) -->
 <div class="product-card" data-category="qab">
-  <img src="images/samovar2.webp" alt="Böyük mis samovar kanal naxışlı lüks dəst – Ruslan Antikvar" loading="lazy">
-  <div class="badge">🏺 Qab</div>
-  <div class="seller">Ruslan · 055 921 38 99</div>
-  <button class="zoom-btn" onclick="openModal(this)">🔍</button>
-  <h3>Böyük Mis Samovar – Kanal Naxışlı</h3>
-  <div class="sku">Məhsul kodu: ANT-007</div>
-  <p>İri ölçülü bəzəkli sarı mis samovar. Şaquli kanal naxışlı gövdə, bəzəkli qulplar, oyma dekor. Samovar, boşqab və dayaq ayaqlıq ilə tam dəst halında. Möhtəşəm görünüş.</p>
-  <details>
-    <summary>🔎 Ekspert Analizi</summary>
-    <p>Rus imperiyası dövrü Tula istehsalı. Dünya antikvar bazarında yüksək qiymətə satılan bu tip böyük samovarlar qonaqpərvərlik simvolu sayılır. Kanal naxışlı gövdə Tula samovarlarının xüsusi bir modelidir. Nadir tam dəst nümunəsi.</p>
-  </details>
-  <a class="btn-wa" href="https://wa.me/994559213899?text=Salam.%20bu%20m%C9%99hsulun%20qiym%C9%99tini%20soru%C5%9Fmaq%20ist%C9%99yirdim" target="_blank" rel="noopener">Qiymət Soruş</a>
+  <div class="img-wrap" onclick="openLb('images/samovar2.webp','Böyük Mis Samovar – Kanal Naxışlı')">
+    <img src="images/samovar2.webp" alt="Böyük mis samovar kanal naxışlı lüks dəst – Ruslan Antikvar" loading="lazy">
+    <div class="img-protect"></div>
+    <div class="watermark">Ruslan Antikvar · 055 921 38 99</div>
+    <div class="cat-badge">🏺 Qab</div>
+    <div class="zoom-hint">🔍</div>
+  </div>
+
+  <div class="card-body">
+    <div class="product-title">Böyük Mis Samovar – Kanal Naxışlı</div>
+    <div class="product-code">Məhsul kodu: ANT-007</div>
+
+    <div class="product-desc">
+      İri ölçülü bəzəkli sarı mis samovar. Şaquli kanal naxışlı gövdə, bəzəkli qulplar, oyma dekor. Samovar, boşqab və dayaq ayaqlıq ilə tam dəst halında.
+    </div>
+
+    <div class="analysis-box">
+      <div class="analysis-label">Ekspert Analizi</div>
+      <div class="analysis-text">
+        Rus imperiyası dövrü Tula istehsalı. Kanal naxışlı gövdə Tula samovarlarının xüsusi bir modelidir. Nadir tam dəst nümunəsi.
+      </div>
+    </div>
+
+    <a class="wa-btn" href="https://wa.me/994559213899?text=Salam.%20ANT-007%20m%C9%99hsulunun%20qiym%C9%99tini%20soru%C5%9Fmaq%20ist%C9%99yirdim" target="_blank" rel="noopener">
+      Qiymət Soruş
+    </a>
+  </div>
 </div>
+
 
 <!-- ANT-008: Qramofon (tunc hunili) -->
 <div class="product-card" data-category="diger">
-  <img src="images/maqnitofon1.webp" alt="Antik qramofon tunc huni taxta qutu – Ruslan Antikvar" loading="lazy">
-  <div class="badge">🗝 Digər</div>
-  <div class="seller">Ruslan · 055 921 38 99</div>
-  <button class="zoom-btn" onclick="openModal(this)">🔍</button>
-  <h3>Antik Qramofon – Tunc Hunili</h3>
-  <div class="sku">Məhsul kodu: ANT-008</div>
-  <p>Taxta gövdəli qramofon, tünd tunc rəngli böyük huni ilə. Vinyl (qrammofon) lövhəsi üzərindədir. Mexaniki yaylı hərəkət sistemi. XX əsrin əvvəlinə aid klassik model. Orijinal qulp mexanizmi saxlanılıb.</p>
-  <details>
-    <summary>🔎 Ekspert Analizi</summary>
-    <p>Avropa istehsalı, 1900–1920-ci illər. Bu modelin tunc hunisi xüsusi akustik keyfiyyət verir. Belə qramofonlar antikvar bazarında yüksək qiymətə satılır. Lövhəsi ilə birlikdə işlək vəziyyətdə olan nümunə son dərəcə nadirdir.</p>
-  </details>
-  <a class="btn-wa" href="https://wa.me/994559213899?text=Salam.%20bu%20m%C9%99hsulun%20qiym%C9%99tini%20soru%C5%9Fmaq%20ist%C9%99yirdim" target="_blank" rel="noopener">Qiymət Soruş</a>
+  <div class="img-wrap" onclick="openLb('images/maqnitofon1.webp','Antik Qramofon – Tunc Hunili')">
+    <img src="images/maqnitofon1.webp" alt="Antik qramofon tunc huni taxta qutu – Ruslan Antikvar" loading="lazy">
+    <div class="img-protect"></div>
+    <div class="watermark">Ruslan Antikvar · 055 921 38 99</div>
+    <div class="cat-badge">🗝 Digər</div>
+    <div class="zoom-hint">🔍</div>
+  </div>
+
+  <div class="card-body">
+    <div class="product-title">Antik Qramofon – Tunc Hunili</div>
+    <div class="product-code">Məhsul kodu: ANT-008</div>
+
+    <div class="product-desc">
+      Taxta gövdəli qramofon, tünd tunc rəngli böyük huni ilə. Mexaniki yaylı hərəkət sistemi. XX əsrin əvvəlinə aid klassik model. Orijinal qulp mexanizmi saxlanılıb.
+    </div>
+
+    <div class="analysis-box">
+      <div class="analysis-label">Ekspert Analizi</div>
+      <div class="analysis-text">
+        Avropa istehsalı, 1900–1920-ci illər. Bu modelin tunc hunisi xüsusi akustik keyfiyyət verir. Lövhəsi ilə birlikdə işlək vəziyyətdə olan nümunə son dərəcə nadirdir.
+      </div>
+    </div>
+
+    <a class="wa-btn" href="https://wa.me/994559213899?text=Salam.%20ANT-008%20m%C9%99hsulunun%20qiym%C9%99tini%20soru%C5%9Fmaq%20ist%C9%99yirdim" target="_blank" rel="noopener">
+      Qiymət Soruş
+    </a>
+  </div>
 </div>
+
 
 <!-- ANT-009: Qramofon (yaşıl hunili) -->
 <div class="product-card" data-category="diger">
-  <img src="images/maqnitofon2.webp" alt="Antik qramofon yaşıl huni taxta qutu – Ruslan Antikvar Bakı" loading="lazy">
-  <div class="badge">🗝 Digər</div>
-  <div class="seller">Ruslan · 055 921 38 99</div>
-  <button class="zoom-btn" onclick="openModal(this)">🔍</button>
-  <h3>Antik Qramofon – Yaşıl Hunili</h3>
-  <div class="sku">Məhsul kodu: ANT-009</div>
-  <p>Qırmızı mühafizə örtüklü fırlanma diski olan taxta gövdəli qramofon. Yaşıl rəngli böyük metal huni. Oymalı taxta qutu gövdə, iki açma mexi. Nadir yaşıl rəng kombinasiyası. Kolleksiyaçılar üçün xüsusi əşya.</p>
-  <details>
-    <summary>🔎 Ekspert Analizi</summary>
-    <p>HMV (His Masters Voice) ya da analoji istehsal, təx. 1910–1920. Yaşıl hunilər son dərəcə nadirdir – əksər nümunələr qara və ya mis rənglidirlər. Bu xüsusiyyəti kolleksiya dəyərini əhəmiyyətli dərəcədə artırır.</p>
-  </details>
-  <a class="btn-wa" href="https://wa.me/994559213899?text=Salam.%20bu%20m%C9%99hsulun%20qiym%C9%99tini%20soru%C5%9Fmaq%20ist%C9%99yirdim" target="_blank" rel="noopener">Qiymət Soruş</a>
+  <div class="img-wrap" onclick="openLb('images/maqnitofon2.webp','Antik Qramofon – Yaşıl Hunili')">
+    <img src="images/maqnitofon2.webp" alt="Antik qramofon yaşıl huni taxta qutu – Ruslan Antikvar Bakı" loading="lazy">
+    <div class="img-protect"></div>
+    <div class="watermark">Ruslan Antikvar · 055 921 38 99</div>
+    <div class="cat-badge">🗝 Digər</div>
+    <div class="zoom-hint">🔍</div>
+  </div>
+
+  <div class="card-body">
+    <div class="product-title">Antik Qramofon – Yaşıl Hunili</div>
+    <div class="product-code">Məhsul kodu: ANT-009</div>
+
+    <div class="product-desc">
+      Qırmızı mühafizə örtüklü fırlanma diski olan taxta gövdəli qramofon. Yaşıl rəngli böyük metal huni. Oymalı taxta qutu gövdə, iki açma mexi. Nadir yaşıl rəng kombinasiyası.
+    </div>
+
+    <div class="analysis-box">
+      <div class="analysis-label">Ekspert Analizi</div>
+      <div class="analysis-text">
+        HMV (His Masters Voice) ya da analoji istehsal, təx. 1910–1920. Yaşıl hunilər son dərəcə nadirdir. Bu xüsusiyyəti kolleksiya dəyərini əhəmiyyətli dərəcədə artırır.
+      </div>
+    </div>
+
+    <a class="wa-btn" href="https://wa.me/994559213899?text=Salam.%20ANT-009%20m%C9%99hsulunun%20qiym%C9%99tini%20soru%C5%9Fmaq%20ist%C9%99yirdim" target="_blank" rel="noopener">
+      Qiymət Soruş
+    </a>
+  </div>
 </div>
+
 
 <!-- ANT-010: Azərbaycan Xalçası -->
 <div class="product-card" data-category="resm">
-  <img src="images/kilim1.webp" alt="Azərbaycan xalçası qoşa medalyonlu qırmızı göy antik – Ruslan" loading="lazy">
-  <div class="badge">🖼 Xalça</div>
-  <div class="seller">Ruslan · 055 921 38 99</div>
-  <button class="zoom-btn" onclick="openModal(this)">🔍</button>
-  <h3>Azərbaycan Xalçası – Qoşa Medalyonlu</h3>
-  <div class="sku">Məhsul kodu: ANT-010</div>
-  <p>Qırmızı-tünd göy fonlu Azərbaycan xalçası. İki altıbucaqlı medalyon, bitki naxışları, çoxlu haşiyə lentləri. Xalça toxuculuğunun klassik Qafqaz üslubunda hazırlanıb. Saçaqlı kənarlar.</p>
-  <details>
-    <summary>🔎 Xalça Analizi</summary>
-    <p>Qafqaz bölgəsi istehsalı, ehtimal ki, Qarabağ ya da Şirvan məktəbi. Qoşa medalyon kompozisiyası Azərbaycan xalçaçılığının ən tanınan motivlərindəndir. Əl ilə toxunmuş köhnə dövrə aid nümunə. Rənglər natural boyaqlarla hazırlanıb.</p>
-  </details>
-  <a class="btn-wa" href="https://wa.me/994559213899?text=Salam.%20bu%20m%C9%99hsulun%20qiym%C9%99tini%20soru%C5%9Fmaq%20ist%C9%99yirdim" target="_blank" rel="noopener">Qiymət Soruş</a>
+  <div class="img-wrap" onclick="openLb('images/kilim1.webp','Azərbaycan Xalçası – Qoşa Medalyonlu')">
+    <img src="images/kilim1.webp" alt="Azərbaycan xalçası qoşa medalyonlu qırmızı göy antik – Ruslan" loading="lazy">
+    <div class="img-protect"></div>
+    <div class="watermark">Ruslan Antikvar · 055 921 38 99</div>
+    <div class="cat-badge">🖼 Xalça</div>
+    <div class="zoom-hint">🔍</div>
+  </div>
+
+  <div class="card-body">
+    <div class="product-title">Azərbaycan Xalçası – Qoşa Medalyonlu</div>
+    <div class="product-code">Məhsul kodu: ANT-010</div>
+
+    <div class="product-desc">
+      Qırmızı-tünd göy fonlu Azərbaycan xalçası. İki altıbucaqlı medalyon, bitki naxışları, çoxlu haşiyə lentləri. Xalça toxuculuğunun klassik Qafqaz üslubunda hazırlanıb.
+    </div>
+
+    <div class="analysis-box">
+      <div class="analysis-label">Xalça Analizi</div>
+      <div class="analysis-text">
+        Qafqaz bölgəsi istehsalı, ehtimal ki, Qarabağ ya da Şirvan məktəbi. Qoşa medalyon kompozisiyası Azərbaycan xalçaçılığının ən tanınan motivlərindəndir. Əl ilə toxunmuş köhnə dövrə aid nümunə.
+      </div>
+    </div>
+
+    <a class="wa-btn" href="https://wa.me/994559213899?text=Salam.%20ANT-010%20m%C9%99hsulunun%20qiym%C9%99tini%20soru%C5%9Fmaq%20ist%C9%99yirdim" target="_blank" rel="noopener">
+      Qiymət Soruş
+    </a>
+  </div>
 </div>
+
 
 <!-- ANT-011: Kilim -->
 <div class="product-card" data-category="resm">
-  <img src="images/kilim2.webp" alt="Azərbaycan kilimi bordo həndəsi naxışlı – Ruslan Antikvar" loading="lazy">
-  <div class="badge">🖼 Xalça</div>
-  <div class="seller">Ruslan · 055 921 38 99</div>
-  <button class="zoom-btn" onclick="openModal(this)">🔍</button>
-  <h3>Azərbaycan Kilimi – Həndəsi Naxışlı</h3>
-  <div class="sku">Məhsul kodu: ANT-011</div>
-  <p>Tünd bordo rəngli düz toxumalı kilim. Ardıcıl iç-içə düzbucaqlılar kompozisiyası, ağ nöqtəli konturlar, rəngli kvadrat motivlər. Saçaqlı kənarlar. Geniş ölçü. Ev interyerini bəzəmək üçün ideal.</p>
-  <details>
-    <summary>🔎 Xalça Analizi</summary>
-    <p>Azərbaycan ya da Şimali İran kilim ənənəsi. Bu tip düz toxumalı kilimlər əl işi texnika ilə hazırlanır. Bordo rəng kökboyasına işarədir ki, bu da köhnəlik və keyfiyyət göstəricisidir. Saçaqların sağlamlığı yaxşı mühafizəyə dəlalət edir.</p>
-  </details>
-  <a class="btn-wa" href="https://wa.me/994559213899?text=Salam.%20bu%20m%C9%99hsulun%20qiym%C9%99tini%20soru%C5%9Fmaq%20ist%C9%99yirdim" target="_blank" rel="noopener">Qiymət Soruş</a>
+  <div class="img-wrap" onclick="openLb('images/kilim2.webp','Azərbaycan Kilimi – Həndəsi Naxışlı')">
+    <img src="images/kilim2.webp" alt="Azərbaycan kilimi bordo həndəsi naxışlı – Ruslan Antikvar" loading="lazy">
+    <div class="img-protect"></div>
+    <div class="watermark">Ruslan Antikvar · 055 921 38 99</div>
+    <div class="cat-badge">🖼 Xalça</div>
+    <div class="zoom-hint">🔍</div>
+  </div>
+
+  <div class="card-body">
+    <div class="product-title">Azərbaycan Kilimi – Həndəsi Naxışlı</div>
+    <div class="product-code">Məhsul kodu: ANT-011</div>
+
+    <div class="product-desc">
+      Tünd bordo rəngli düz toxumalı kilim. Ardıcıl iç-içə düzbucaqlılar kompozisiyası, ağ nöqtəli konturlar, rəngli kvadrat motivlər. Saçaqlı kənarlar. Geniş ölçü. Ev interyerini bəzəmək üçün ideal.
+    </div>
+
+    <div class="analysis-box">
+      <div class="analysis-label">Xalça Analizi</div>
+      <div class="analysis-text">
+        Azərbaycan ya da Şimali İran kilim ənənəsi. Bordo rəng kökboyasına işarədir. Saçaqların sağlamlığı yaxşı mühafizəyə dəlalət edir.
+      </div>
+    </div>
+
+    <a class="wa-btn" href="https://wa.me/994559213899?text=Salam.%20ANT-011%20m%C9%99hsulunun%20qiym%C9%99tini%20soru%C5%9Fmaq%20ist%C9%99yirdim" target="_blank" rel="noopener">
+      Qiymət Soruş
+    </a>
+  </div>
 </div>
+
 
 <!-- ANT-012: Tikmə Pano -->
 <div class="product-card" data-category="resm">
-  <img src="images/kilim3.webp" alt="Qarabağ tikmə panoları cüt dəst ipək – Ruslan Antikvar Bakı" loading="lazy">
-  <div class="badge">🖼 Tikmə</div>
-  <div class="seller">Ruslan · 055 921 38 99</div>
-  <button class="zoom-btn" onclick="openModal(this)">🔍</button>
-  <h3>Qarabağ Tikmə Panoları – Cüt Dəst</h3>
-  <div class="sku">Məhsul kodu: ANT-012</div>
-  <p>Qara əsas üzərindəki rəngli ipək tikmə – iki eyni panel cütü. Narlı, lalə, buta motivlərini əhatə edən mürəkkəb naxış kompozisiyası. Qırmızı, yaşıl, ağ, sarı ipək saplar. Divar bəzəyi kimi çərçivələnib.</p>
-  <details>
-    <summary>🔎 Sənətşünas Analizi</summary>
-    <p>Azərbaycan tikmə sənətinin şah əsəri – ehtimal ki, Şuşa ya da Şəki məktəbi. Buta motivi Azərbaycan ornamentikasının simvolu sayılır. Cüt panel – nadir tapıntı; adətən tək saxlanılır. Muzey keyfiyyətli nümunə.</p>
-  </details>
-  <a class="btn-wa" href="https://wa.me/994559213899?text=Salam.%20bu%20m%C9%99hsulun%20qiym%C9%99tini%20soru%C5%9Fmaq%20ist%C9%99yirdim" target="_blank" rel="noopener">Qiymət Soruş</a>
-</div>
+  <div class="img-wrap" onclick="openLb('images/kilim3.webp','Qarabağ Tikmə Panoları – Cüt Dəst')">
+    <img src="images/kilim3.webp" alt="Qarabağ tikmə panoları cüt dəst ipək – Ruslan Antikvar Bakı" loading="lazy">
+    <div class="img-protect"></div>
+    <div class="watermark">Ruslan Antikvar · 055 921 38 99</div>
+    <div class="cat-badge">🖼 Tikmə</div>
+    <div class="zoom-hint">🔍</div>
+  </div>
+
+  <div class="card-body">
+    <div class="product-title">Qarabağ Tikmə Panoları – Cüt Dəst</div>
+    <div class="product-code">Məhsul kodu: ANT-012</div>
+
+    <div class="product-desc">
+      Qara əsas üzərindəki rəngli ipək tikmə – iki eyni panel cütü. Narlı, lalə, buta motivlərini əhatə edən mürəkkəb naxış kompozisiyası. Qırmızı, yaşıl, ağ, sarı ipək saplar.
+    </div>
+
+    <div class="analysis-box">
+      <div class="analysis-label">Ekspert Analizi</div>
+      <div class="analysis-text">
+        Qarabağ tikmə sənəti XIX–XX əsr Azərbaycan dekorativ sənətinin ən dəyərli nümunələrindəndir. Cüt dəst olması bu məhsulu kolleksiyaçılar üçün daha dəyərli edir.
+      </div>
+    </div>
+
+    <a class="wa-btn" href="https://wa.me/994559213899?text=Salam.%20ANT-012%20m%C9%99hsulunun%20qiym%C9%99tini%20soru%C5%9Fmaq%20ist%C9%99yirdim" target="_blank" rel="noopener">
+      Qiymət Soruş
+    </a>
+  </div>
 
 <!-- ANT-013: Fiqur – Torlu Balıqçı -->
 <div class="product-card" data-category="diger">
